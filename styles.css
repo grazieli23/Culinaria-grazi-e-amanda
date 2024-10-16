@@ -1,6 +1,6 @@
 body {
 color:white;
-background: black;
+background: rgb(0, 0, 0);
 margin: 0px;
 }
 
@@ -12,12 +12,14 @@ color:rgb(42, 122, 128);
 }
 
 section{
-    background: rgb(184, 156, 213);
+    background: rgb(248, 239, 155);
     padding-bottom: 80px ;
     padding-top: 80px;
     display: flex;
+    justify-content: center;
 }
 
+div{
+   margin-right: 20px;
 
-
-
+}
