@@ -1,19 +1,19 @@
 body {
-color:white;
+color: rgb(240, 215, 227);
 background: rgb(0, 0, 0);
 margin: 0px;
 font-family: "Playwrite GB S", cursive;
 }
 
 header {
-    border-bottom: solid 2px rgb(42,122,228);
+    border-bottom: solid 2px rgb(240,215,228);
 padding: 20px;
 font-size: 32px ;
-color:rgb(42, 122, 128);
+color:rgb(240, 215, 228);
 }
 
 section{
-    background: rgb(248, 239, 155);
+    background: rgb(94, 42, 63);
     padding-bottom: 80px ;
     padding-top: 80px;
     display: flex;
@@ -31,6 +31,28 @@ h1{
 p{ 
  font-size: 20px;
 }
-img{
+.categoria-video {
+    display: flex;
+    overflow-y: auto;
+    gap:10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-video {
+    opacity: 0.5;
     height: 200px;
+}
+
+.categoria-video img:hover{
+    opacity: 1.0;
+    border: 3px solid rgb(249, 46, 178);
+}
+
+.categoria h2 {
+    color: rgb (255, 224, 228);
 }
