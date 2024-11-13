@@ -3,6 +3,7 @@ color: rgb(240, 215, 227);
 background: rgb(0, 0, 0);
 margin: 0px;
 font-family: "Playwrite GB S", cursive;
+margin-bottom: 100px;
 }
 
 header {
@@ -12,7 +13,7 @@ font-size: 32px ;
 color:rgb(240, 215, 228);
 }
 
-section{
+.chamada {
     background: rgb(94, 42, 63);
     padding-bottom: 80px ;
     padding-top: 80px;
@@ -31,9 +32,9 @@ h1{
 p{ 
  font-size: 20px;
 }
-.categoria-video {
+.categoria-videos {
     display: flex;
-    overflow-y: auto;
+    overflow-x: auto;
     gap:10px;
 }
 
@@ -43,7 +44,7 @@ p{
     margin-top: 50px;
 }
 
-.categoria-video {
+.categoria-videos img {
     opacity: 0.5;
     height: 200px;
 }
